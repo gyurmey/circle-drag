@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+* {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +37,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.dot {
+  height: 45px;
+  width: 45px;
+  /* background-color: #f1f0f0; */
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+  /* border-color: red; */
 }
